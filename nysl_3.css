@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-/*header*/
+/***************************header*******************/
 header {
   background-color: black;
   padding-bottom: 0px;
@@ -21,7 +21,7 @@ img {
   margin-top: 5px;
 }
 
-/*backgroundimages*/
+/***************************backgroundimages**************/
 
 #aboutimg {
   background: url(image7.JPG) no-repeat top;
@@ -34,7 +34,7 @@ img {
 }
 
 #home {
-  background: url(Youth-Soccer.jpg) no-repeat top;
+  background: url(image6.JPG) no-repeat top;
   background-size: cover;
   position: absolute;
   top: 80px;
@@ -87,7 +87,7 @@ h2 {
   padding-left: 50px;
 }
 
-/*buttons*/
+/*************************buttons*********************/
 
 .container ul {
   margin-top: 0px;
@@ -150,7 +150,7 @@ nav ul {
   margin-right: 0px;
 }
 
-/*body*/
+/***********************body********************/
 html,
 body {
   width: 100%;
@@ -163,12 +163,12 @@ body {
   margin-left: 0px;
 }
 
-/*fonts*/
+/**********************fonts*******************/
 html {
   font-family: acumin-pro, system-ui, sans-serif;
 }
 
-/*home*/
+/***********************home*****************/
 .home {
   position: absolute;
   top: 550px;
@@ -187,7 +187,7 @@ html {
   right: 100px;
 }
 
-/*about*/
+/**********************about******************/
 .about {
   position: absolute;
   top: 550px;
@@ -197,7 +197,7 @@ html {
   background-color: black;
 }
 
-/*aside*/
+/***********************aside***************/
 .aside {
   position: relative;
   top: 550px;
@@ -223,7 +223,7 @@ h3 {
   padding-bottom: 10px;
 }
 
-/*fader*/
+/*************************fader****************/
 
 .slider {
   float: left;
@@ -248,7 +248,7 @@ h3 {
 }
 
 .slide2 {
-  background-image: url(image2.jpg);
+  background-image: url(soccer_image1.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
   animation: fade2 8s infinite;
@@ -306,7 +306,7 @@ h3 {
   }
 }
 
-/*list*/
+/*******************list********************/
 .list {
   position: relative;
   top: 550px;
@@ -337,7 +337,7 @@ p {
   margin-bottom: 0px;
 }
 
-/*tables*/
+/************************tables******************/
 
 .tables {
   position: relative;
@@ -391,7 +391,7 @@ th {
   height: 100px;
 }
 
-/*form*/
+/******************form*******************/
 .my-form {
   align-content: center;
   align-items: center;
@@ -469,7 +469,7 @@ p {
   transition: all 0.4s ease 0s;
 }
 
-/*footer*/
+/********************footer*******************/
 
 .footerabout {
   background: black;
@@ -583,7 +583,7 @@ p {
   justify-content: space-evenly;
 }
 
-/*submited*/
+/********************submited*********************/
 
 .container-b {
   display: grid;
