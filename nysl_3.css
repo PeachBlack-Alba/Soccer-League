@@ -24,7 +24,7 @@ img {
 /*backgroundimages*/
 
 #aboutimg {
-  background: url(image1.jpg) no-repeat top;
+  background: url(image7.JPG) no-repeat top;
   background-size: cover;
   position: absolute;
   top: 80px;
@@ -241,7 +241,7 @@ h3 {
 }
 
 .slide1 {
-  background-image: url(image1.jpg);
+  background-image: url(soccer_image2.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
   animation: fade1 8s infinite;
