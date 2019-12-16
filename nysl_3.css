@@ -24,7 +24,7 @@ img {
 /*backgroundimages*/
 
 #aboutimg {
-  background: url(../images/design2_image1.jpg) no-repeat top;
+  background: url(image1.jpg) no-repeat top;
   background-size: cover;
   position: absolute;
   top: 80px;
@@ -34,7 +34,7 @@ img {
 }
 
 #home {
-  background: url(../images/Youth-Soccer.jpg) no-repeat top;
+  background: url(Youth-Soccer.jpg) no-repeat top;
   background-size: cover;
   position: absolute;
   top: 80px;
@@ -44,7 +44,7 @@ img {
 }
 
 #rules {
-  background: url(../images/image5.jpg) no-repeat top;
+  background: url(image5.jpg) no-repeat top;
   background-size: cover;
   position: absolute;
   top: 80px;
@@ -54,7 +54,7 @@ img {
 }
 
 #game {
-  background: url(../images/image12.JPG) no-repeat top;
+  background: url(image12.JPG) no-repeat top;
   background-size: cover;
   position: absolute;
   top: 80px;
@@ -241,21 +241,21 @@ h3 {
 }
 
 .slide1 {
-  background-image: url(../images/soccer_image1.jpeg);
+  background-image: url(image1.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   animation: fade1 8s infinite;
 }
 
 .slide2 {
-  background-image: url(../images/soccer_image2.jpeg);
+  background-image: url(image2.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   animation: fade2 8s infinite;
 }
 
 .slide3 {
-  background-image: url(../images/soccer_image3.jpeg);
+  background-image: url(soccer_image3.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
   animation: fade3 8s infinite;

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NYSL | Youth Soccer</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="nysl_3.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <img src="nysl_logo_circular.png" alt="logoimage" />
+
+        <nav>
+          <div class="topnav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about3.html">About</a></li>
+              <li><a href="rules.html">Rules of play&policies</a></li>
+              <li><a href="game_info.html">Game Information</a></li>
+              <li>
+                <a class="active" href="registration.html">Registration From</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div id="aboutimg">
+      <h1>North Youth Soccer League</h1>
+    </div>
+
+    <div class="about">
+      <h2>Registration From</h2>
+    </div>
+
+    <div class="my-form">
+      <form name="my-form" action="show_data.html" method="GET">
+        <div class="parent">
+          <div class="child">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" />
+          </div>
+          <div class="child">
+            <label for="lastname">Last Name</label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Last Name"
+            />
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="child">
+            <label for="streetadress">Street Adress</label>
+            <input
+              type="text"
+              id="streetadress"
+              name="streetadress"
+              placeholder="Street Adress"
+            />
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="child">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="city" />
+          </div>
+          <div class="child">
+            <label for="zipcode">Zip Code</label>
+            <input
+              type="text"
+              id="zipcode"
+              name="zipcode"
+              placeholder="Zip Code"
+            />
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="child">
+            <label for="birthdate">Birth Date</label>
+            <input
+              type="date"
+              id="birthdate"
+              name="birthdate"
+              placeholder="mm/dd/yyyy"
+            />
+          </div>
+          <div class="child">
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" />Female
+            <input type="radio" id="gender" name="gender" />Male
+            <input type="radio" id="gender" name="gender" />Other
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="child">
+            <label for="grade">Grade</label>
+            <input
+              type="radio"
+              id="pre-school"
+              name="grade"
+              value="Pre-school"
+            />Pre-School
+            <input type="radio" id="1st" name="grade" value="1st" />1st
+            <input type="radio" id="2nd" name="grade" value="2nd" />2nd
+            <input type="radio" id="3rd" name="grade" value="3rd" />3rd
+            <input type="radio" id="4th" name="grade" value="4th" />4th
+            <input type="radio" id="5th" name="grade" value="5th" />5th
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="child">
+            <label for="parent">Parent/Guardian</label>
+            <input
+              type="text"
+              id="parent"
+              name="parent"
+              placeholder="Parent/Guardian"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="child">
+            <label for="phone">Contact Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="phone" required/>
+          </div>
+
+          <div class="child">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" />
+          </div>
+        </div>
+
+        <p><strong>Which elementary schools do you live near?</strong></p>
+
+        <div class="parent">
+          <div class="child">
+            <label for="closestschool">First Closest School:</label>
+            <select name="2ndclosestschool">
+              <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+              <option value="Greenbay">Greenbay</option>
+              <option value="Howard A Yeager">Howard A Yeager</option>
+              <option value="Marjorie P Hart">Marjorie P Hart</option>
+              <option value="North Elementary">North Elementary</option>
+              <option value="South Elementary">South Elementary</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="child">
+            <label for="2ndclosestschool">Second Closest School:</label>
+            <select name="2ndclosestschool">
+              <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+              <option value="Greenbay">Greenbay</option>
+              <option value="Howard A Yeager">Howard A Yeager</option>
+              <option value="Marjorie P Hart">Marjorie P Hart</option>
+              <option value="North Elementary">North Elementary</option>
+              <option value="South Elementary">South Elementary</option>
+            </select>
+          </div>
+        </div>
+
+        <p>
+          <strong>What position(s) do you normally play?</strong> (check all
+          that apply)
+        </p>
+
+        <div class="parent">
+          <div class="position">
+            <input
+              type="checkbox"
+              id="Forward"
+              name="Forward"
+              value="Forward"
+            />
+            <label for="Forward">Forward</label>
+          </div>
+          <div class="position">
+            <input
+              type="checkbox"
+              id="Defense"
+              name="Defense"
+              value="Defense"
+            />
+            <label for="Defense">Defense</label>
+          </div>
+          <div class="position">
+            <input
+              type="checkbox"
+              id="Midfield"
+              name="Midfield"
+              value="Midfield"
+            />
+            <label for="Midfield">Midfield</label>
+          </div>
+          <div class="position">
+            <input
+              type="checkbox"
+              id="Goalkeeper"
+              name="Goalkeeper"
+              value="Goalkeeper"
+            />
+            <label for="Goalkeeper">Goalkeeper</label>
+          </div>
+        </div>
+
+        <div class="position">
+          <input type="checkbox" id="uniform" name="uniform" value="uniform" />
+          <label for="uniform">Already Have a Uniform:</label>
+        </div>
+
+        <div class="parent">
+          <div class="child">
+            <label for="jersey"><strong> Jersey Size:</strong></label>
+            <input
+              type="radio"
+              id="Youth Small"
+              name="jersey"
+              value="Youth Small"
+            />Youth Small
+            <input
+              type="radio"
+              id="Youth Medium"
+              name="jersey"
+              value="Youth Medium"
+            />Youth Medium
+            <input
+              type="radio"
+              id="Youth Large"
+              name="jersey"
+              value="Youth Large"
+            />Youth Large
+            <input type="radio" id="Small" name="jersey" value="Small" />Small
+            <input
+              type="radio"
+              id="Medium"
+              name="jersey"
+              value="Medium"
+            />Medium
+            <input type="radio" id="Large" name="jersey" value="Large" />Large
+            <input
+              type="radio"
+              id="Extra-Large"
+              name="jersey"
+              value="Extra-Large"
+            />Extra-Large
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="child">
+            <label for="shorts"><strong> Shorts Size:</strong></label>
+            <input
+              type="radio"
+              id="Youth Small"
+              name="shorts"
+              value="Youth Small"
+            />Youth Small
+            <input
+              type="radio"
+              id="Youth Medium"
+              name="shorts"
+              value="Youth Medium"
+            />Youth Medium
+            <input
+              type="radio"
+              id="Youth Large"
+              name="shorts"
+              value="Youth Large"
+            />Youth Large
+            <input type="radio" id="Small" name="shorts" value="Small" />Small
+            <input
+              type="radio"
+              id="Medium"
+              name="shorts"
+              value="Medium"
+            />Medium
+            <input type="radio" id="Large" name="shorts" value="Large" />Large
+            <input
+              type="radio"
+              id="Extra-Large"
+              name="shorts"
+              value="Extra-Large"
+            />Extra-Large
+          </div>
+        </div>
+
+        <p>
+          <strong><u>Permission to Play</u></strong>
+        </p>
+        <br />
+
+        <p>
+          I, the parent or guardian of the minor registrant, agree that the
+          registrant and I will abide by all the rules of the Northside Youth
+          Soccer League (NYSL). In recognizing the possibility of physical
+          injury associated with soccer and in consideration for the “League”
+          accepting the registrant for its soccer programs and activities, I
+          hereby release, discharge, and/or otherwise indemnify NYSL, their
+          employees and associated personnel and volunteers, including the
+          facilities used for practices and games, against any claim by or on
+          behalf of the registrant as a result of the registrant’s participation
+          in the program and/or being transported to or from NYSL sponsored
+          activities, which transportation.
+        </p>
+        <br />
+        <p>
+          By signing below, I hereby agree and authorize the above. In addition,
+          by signing below, I also acknowledge that I have read the cancellation
+          policy and agree to its terms.
+        </p>
+
+        <div class="parent">
+          <div class="child">
+            <label for="signature">Parent/Guardian Signature</label>
+            <input type="text" id="name" name="signature"
+            placeholder="signature"">
+          </div>
+          <div class="child">
+            <label for="date">Date</label>
+            <input type="text" id="date" name="date" placeholder="date" />
+          </div>
+        </div>
+
+        <div>
+            <button class="submit" id="submit"> <strong>Submit</strong></button>
+          
+        </div>
+      </form>
+    </div>
+
+    <footer class="footerregistration">
+        <div class="footer-content">
+            <p><strong>Stay in touch</strong></p>
+    
+            <p>Somewhere in The World 88965-0987</p>
+    
+            <p>📱 09764538829</p>
+    
+            <a class="footer__btn" href="mailto:nysl@chisoccer.org">Email Us</a>
+        </div>
+        <div class="footer-bottom">
+            &copy; peachblack | Designed by Alba Torres Rodríguez
+        </div>
+    </footer>
+    </footer>
+  </body>
+</html>
